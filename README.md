@@ -16,7 +16,7 @@
 
 ### 🏠 [Homepage](/)
 
-### ✨ [Nginx](/)
+### ✨ [Nginx](https://docs.nginx.com/nginx/admin-guide/load-balancer/http-load-balancer/)
 
 * [Nginx - Round Robin (Default)](./nginx/round_robin)
 * [Nginx - Weighted Round Robin](./nginx/round_robin_weight)
