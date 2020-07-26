@@ -22,13 +22,13 @@
 * [Nginx - Weighted Round Robin](./nginx/round_robin_weight)
 * [Nginx - Least Connection](./nginx/least_connection)
 * [Nginx - Weighted Least Connection](./nginx/least_connection_weight)
-* [Nginx - IP Hash - (Sticky Session)](./nginx/ip_hash)
+* [Nginx - IP Hash (Sticky Session)](./nginx/ip_hash)
 
 
 ## Install
 
 ```sh
-cd webserver/algorithm
+cd {webserver}/{algorithm}
 docker-compose up --force-recreate
 ```
 
