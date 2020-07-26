@@ -25,10 +25,20 @@
 * [Nginx - IP Hash (Sticky Session)](./nginx/ip_hash)
 
 
+
+### ✨ [Envoy Proxy](https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/upstream/load_balancing/load_balancers/)
+
+* [Envoy - Round Robin](./envoy/round_robin)
+* [Envoy - Least Connection(request)](./envoy/least_connection)
+* [Envoy - Maglev](./envoy/maglev)
+* [Envoy - Ring Hash](./envoy/ring_hash)
+* [Envoy - Random](./envoy/random)
+
+
 ## Install
 
 ```sh
-cd {webserver}/{algorithm}
+cd {webserver}/{algorithm}  
 docker-compose up --force-recreate
 ```
 
