@@ -1,0 +1,18 @@
+version: "3"
+services:
+  envoy:
+    image: envoyproxy/envoy:v1.14.4
+    ports:
+      - 8080:8080
+    volumes:
+      - ./envoy.yaml:/etc/envoy/envoy.yaml
+
+  app_v1:
+    image: msfidelis/chip:v1
+    ports:
+      - 8081:8080
+
+  app_v2:
+    image: msfidelis/chip:v2
+    ports:
+      - 8082:8080
